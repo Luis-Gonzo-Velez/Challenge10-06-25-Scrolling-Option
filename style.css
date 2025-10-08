@@ -19,6 +19,9 @@ body {
   background-color: #022140;
   font-family: embed;
   background-image: url(jarvis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: ; */
 }
 h1 {
   color: #c5c6c7;
@@ -27,6 +30,7 @@ h1 {
 h3 {
   color: #c5c6c7;
   margin: 225px 10px 20px;
+  font-size: 20px;
 }
 h4 {
   color: #c5c6c7;
@@ -97,9 +101,7 @@ button {
 }
 
 /* Hover Media-Element */
-/* .media-element {
-  transition: background-color 200ms ease;
-} */
+
 .container :hover {
   background-color: #343a40;
 }
