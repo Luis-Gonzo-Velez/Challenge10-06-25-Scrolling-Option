@@ -102,3 +102,27 @@ button {
 .container :hover {
   background-color: #343a40;
 }
+
+.media-element button:hover,
+.media-element button:focus {
+  color: #6795c4;
+  background-color: #c5c6c7;
+  transform: translateY(-5px);
+  outline: none;
+}
+.media-element h4:hover,
+.media-element h4:focus {
+  color: #6795c4;
+  background-color: #c5c6c7;
+  transform: translateY(-5px);
+  outline: none;
+  border-radius: 10px;
+}
+.media-element p:hover,
+.media-element p:focus {
+  color: #6795c4;
+  background-color: #c5c6c7;
+  transform: translateY(-5px);
+  outline: none;
+  border-radius: 10px;
+}
