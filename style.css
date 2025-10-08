@@ -18,6 +18,7 @@ COLORS
 body {
   background-color: #022140;
   font-family: embed;
+  background-image: url(jarvis.jpg);
 }
 h1 {
   color: #c5c6c7;
@@ -25,7 +26,7 @@ h1 {
 }
 h3 {
   color: #c5c6c7;
-  margin: 20px 10px;
+  margin: 250px 10px 20px;
 }
 h4 {
   color: #c5c6c7;
