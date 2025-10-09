@@ -21,7 +21,7 @@ body {
   background-image: url(jarvis.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: ; */
+  /* background-position: center center; */
 }
 h1 {
   color: #c5c6c7;
@@ -29,7 +29,7 @@ h1 {
 }
 h3 {
   color: #c5c6c7;
-  margin: 225px 10px 20px;
+  margin: 150px 10px 20px;
   font-size: 20px;
 }
 h4 {
@@ -120,6 +120,7 @@ button {
   transform: translateY(-5px);
   outline: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 .media-element p:hover,
 .media-element p:focus {
@@ -128,4 +129,5 @@ button {
   transform: translateY(-5px);
   outline: none;
   border-radius: 10px;
+  cursor: pointer;
 }
